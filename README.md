@@ -1,0 +1,2 @@
+# SmartTravelAndroid
+Application for travellers
