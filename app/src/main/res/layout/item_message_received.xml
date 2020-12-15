@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="0dp"
+    android:paddingEnd="70dp">
+
+    <LinearLayout
+        android:id="@+id/llSenderAvatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="@dimen/s8"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/main_gray_dark"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvSenderShortName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RT"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clChatMessage"
+        style="@style/ChatIncomingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvMessageSender"
+            style="@style/ChatIncomingLabelSender"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Roman Turchyniak" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            style="@style/ChatIncomingLabel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvMessageSender"
+            tools:text="Please enter enter enter enter enter enter enter enter enter enter enter enter" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_group_navigation"
+    app:startDestination="@id/selectContactsFragment">
+
+    <fragment
+        android:id="@+id/selectContactsFragment"
+        android:name="com.magic.smarttravel.screens.new_group.SelectContactsFragment"
+        android:label="fragment_select_contacts"
+        tools:layout="@layout/fragment_select_contacts" >
+        <action
+            android:id="@+id/action_selectContactsFragment_to_newGroupFragment"
+            app:destination="@id/newGroupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newGroupFragment"
+        android:name="com.magic.smarttravel.screens.new_group.NewGroupFragment"
+        android:label="fragment_new_group"
+        tools:layout="@layout/fragment_new_group" />
+</navigation>

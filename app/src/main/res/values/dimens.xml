@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_icons_size">30dp</dimen>
+    <dimen name="toolbar_title_size">20sp</dimen>
+    <dimen name="toolbar_title_margin">5dp</dimen>
+    <dimen name="s4">4dp</dimen>
+    <dimen name="s12">12dp</dimen>
+    <dimen name="s16">16dp</dimen>
+    <dimen name="s8">8dp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/nav_selector_location"
+        android:title="map"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/invisibleFragment"
+        android:title="" />
+    <item
+        android:id="@+id/groupDetailsFragment"
+        android:icon="@drawable/navigation_selector_group"
+        android:title="group"
+        tools:ignore="MenuTitle" />
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "85885899313",
+    "firebase_url": "https://smarttravel-300ba.firebaseio.com",
+    "project_id": "smarttravel-300ba",
+    "storage_bucket": "smarttravel-300ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85885899313:android:b4aba3043a829c8bb97b10",
+        "android_client_info": {
+          "package_name": "com.magic.smarttravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85885899313-i8oo2m6d7e9v0d889pjiushemf07m1h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.magic.smarttravel",
+            "certificate_hash": "e7a94a6d713f2562f5d01f35b2d386ae4a05ebf5"
+          }
+        },
+        {
+          "client_id": "85885899313-q6mic1j8n63i8tvoqld8hb7b2tuissj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH0tMgjbEXfCE4LXJQmHAO_uUYoheFYCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85885899313-q6mic1j8n63i8tvoqld8hb7b2tuissj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
